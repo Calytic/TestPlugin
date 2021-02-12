@@ -3,7 +3,7 @@ using Oxide.Core;
 
 namespace Oxide.Plugins
 {
-    [Info ("Test", "Calytic", "0.0.49")]
+    [Info ("Test", "Calytic", "0.0.50")]
     [Description ("Test")]
     class TestPlugin : CovalencePlugin
     {
