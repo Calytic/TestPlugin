@@ -1,11 +1,12 @@
+// Reference: 0Harmony
 using System;
-using Oxide.Core;
+using Harmony;
 
-namespace Oxide.Plugins
+namespace uMod.Plugins
 {
-    [Info ("Test", "Calytic", "0.0.50")]
+    [Info ("Test", "Calytic", "0.0.51")]
     [Description ("Test")]
-    class TestPlugin : CovalencePlugin
+    class TestPlugin : Plugin
     {
         [Command ("Test")]
         void cmdTest ()
