@@ -4,7 +4,7 @@ using Harmony;
 
 namespace uMod.Plugins
 {
-    [Info ("Test", "Calytic", "0.0.51")]
+    [Info ("Test", "Calytic", "0.0.52")]
     [Description ("Test")]
     class TestPlugin : Plugin
     {
@@ -12,7 +12,7 @@ namespace uMod.Plugins
         void cmdTest ()
         {
             webrequest.Enqueue ("https://httpbin.com/get", string.Empty, delegate (int status, string response) {
-                Interface.Oxide.LogInfo ("Response1\n" + response);
+                Interface.uMod.LogInfo ("Response1\n" + response);
             }, this);
         }
     }
